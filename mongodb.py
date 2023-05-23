@@ -1,7 +1,7 @@
 import pymongo
 from tkinter import *
 
-client=pymongo.MongoClient("mongodb+srv://adsl9:2020BTECS00112@pymongo.qtesrhj.mongodb.net/?retryWrites=true&w=majority")
+client=pymongo.MongoClient()
 # print(client)
 
 mydb=client['student']
